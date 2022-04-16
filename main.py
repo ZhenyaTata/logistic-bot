@@ -9,11 +9,10 @@ def generate_color():
     entryColor.insert(0, color)
 
 
-
 root = Tk()
 root.title("Генератор цветов")
 root.geometry("200x300")
-root.resizable(0, 0)
+root.resizable(False, False)
 labelColor = Label(root, bg="white")
 labelColor.place(relx=0.5, rely=0.3, anchor=CENTER, width=150, height=130)
 
